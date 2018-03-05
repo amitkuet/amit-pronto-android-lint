@@ -5,7 +5,7 @@ require "pronto/ProntoAndroidLint/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "ProntoAndroidLint"
-  spec.version       = ProntoAndroidLint::VERSION
+  spec.version       = pronto::ProntoAndroidLint::VERSION
   spec.authors       = ["Amit Mondal"]
   spec.email         = ["amit.mondal@welldev.io"]
 
