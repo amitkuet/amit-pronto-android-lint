@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/pronto-android_lint.svg)](https://badge.fury.io/rb/pronto-android_lint)
+[![Gem Version](https://badge.fury.io/rb/ProntoAndroidLint.svg)](https://badge.fury.io/rb/ProntoAndroidLint)
 
 # ProntoAndroidLint
 
