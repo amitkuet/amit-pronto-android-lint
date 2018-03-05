@@ -1,0 +1,1 @@
+# amit-pronto-android-lint
