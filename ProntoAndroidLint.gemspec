@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Pronto runner for Android"
   spec.license       = "MIT"    
-  spec.homepage = "http://test.com";
+  spec.homepage = "https://github.com/amitkuet/amit-pronto-android-lint";
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
 #  if spec.respond_to?(:metadata)
