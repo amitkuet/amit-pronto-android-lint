@@ -1,3 +1,3 @@
 module ProntoAndroidLint
-  VERSION = "1.0.0"
+  VERSION = "0.0.6"
 end
