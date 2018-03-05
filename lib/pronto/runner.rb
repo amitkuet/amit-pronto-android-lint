@@ -1,5 +1,5 @@
 require "pronto"
-require "prontoAndroidLint/prontoAndroidLint/Parsing"
+require "pronto/prontoAndroidLint/Parsing"
 
 module Pronto
   class AndroidLintRunner < Runner
@@ -28,7 +28,7 @@ module Pronto
       offences.select { |offence| offence[:path].end_with?(patch_path) }
         .each do |offence|
           messages += patch.added_lines
-            .select { |line| line.new_lineno == offence[:line] }
+            .select { |line| line.new_lineno == offence[:line] || line.new_lineno != offence[:line] }
             .map{ |line| new_message(offence, line) }
       end
 
