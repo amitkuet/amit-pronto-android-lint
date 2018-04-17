@@ -1,5 +1,5 @@
 require "pronto"
-require "pronto/prontoAndroidLint/Parsing"
+require "pronto/ProntoAndroidLint/Parsing"
 
 module Pronto
   class AndroidLintRunner < Runner

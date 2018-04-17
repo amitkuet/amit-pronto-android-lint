@@ -8,7 +8,8 @@ module Pronto
 
       TYPE_WARNINGS = {
         "Warning" => :warning,
-        "Info"  => :info
+        "Info"  => :info,
+        "Error" => :error
       }
 
       def initialize(path)
